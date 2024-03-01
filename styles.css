@@ -1,0 +1,54 @@
+body {
+	background: black;
+}
+* {
+	min-height: 10px;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 326px;
+	margin: 2%;
+}
+.postcard-body {
+	display: flex;
+}
+.margin {
+	margin: 0px;
+}
+.postcard {
+	width: 400px;
+	height: 300px;
+
+	margin: auto;
+	font-family: cursive;
+	font-style: italic;
+	background-image: url(https://media.gettyimages.com/id/93131438/pt/vetorial/valentines-c%C3%A3es.jpg?s=612x612&w=0&k=20&c=2AehgRN_chyoI--OxeksJFO6FZ54w4lcYIk1z0LdjW0=);
+}
+.body-left,
+.body-right {
+	padding: 2%;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(177, 177, 177);
+	padding: 4.5px;
+}
+::placeholder {
+	font-family: cursive;
+}
+button:hover {
+	background: gray;
+	color: azure;
+}
+button:active {
+	color: black;
+	background: rgb(236, 32, 32);
+}
